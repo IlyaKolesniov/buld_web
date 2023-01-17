@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100vw;
+  height: 100vw;
+
+  background-color: #69f0ff;
+}
+
+.timer {
+  color: #2da3f7;
+  font-size: 120px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px
+}
+
+.buttons button {
+  width: 100px;
+  height: 60px;
+  padding: 5px;
+
+  color: #63228c;
+  background-color: #938fff;
+
+  cursor: pointer;
+  transition: all 0.2s;
+
+  font-size: 24px;
+
+  border-radius: 5px;
+  border: 0;
+}
+
+.buttons button:hover {
+  color: #938fff;
+  background-color: #63228c;
+}
